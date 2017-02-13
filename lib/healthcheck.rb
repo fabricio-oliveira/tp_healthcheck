@@ -1,0 +1,2 @@
+module Healthcheck
+end
