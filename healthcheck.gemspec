@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 
 # Maintain your gem's version:
@@ -21,6 +22,9 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'bundler', '~> 1.10'
   s.add_development_dependency 'rake', '~> 10.0'
   s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rspec-rails'
+  s.add_development_dependency 'simplecov'
+  s.add_development_dependency 'simplecov-rcov'
   s.add_development_dependency 'rubocop'
   s.add_development_dependency 'sqlite3'
 end
