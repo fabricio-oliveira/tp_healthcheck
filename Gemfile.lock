@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tp_healthcheck (0.1.0)
+    tp_healthcheck (0.1.2)
       rails (~> 4.0)
 
 GEM

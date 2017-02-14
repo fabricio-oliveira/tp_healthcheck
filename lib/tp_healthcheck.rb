@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-require 'tp_healthcheck/engine'
 module TPHealthcheck
+  require 'tp_healthcheck/engine' if defined?(Rails)
 end
