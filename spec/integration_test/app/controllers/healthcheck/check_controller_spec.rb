@@ -17,7 +17,7 @@ RSpec.describe Healthcheck::CheckController, type: :request do
       end
     end
 
-    describe 'GET /healthcheck/database' do
+    describe 'GET /healthchecks/database' do
       context 'When database is up' do
         before do
           get '/healthchecks/database', nil, nil
@@ -25,6 +25,18 @@ RSpec.describe Healthcheck::CheckController, type: :request do
 
         it 'Does return status_code: 200' do
           expect(response).to have_http_status(:ok)
+        end
+      end
+    end
+
+    describe 'GET /healthchecks/fake' do
+      context 'When get inexistent url' do
+        before do
+          get '/healthchecks/fake', nil, nil
+        end
+
+        it 'Does return status_code: 404' do
+          expect(response).to have_http_status(:not_found)
         end
       end
     end

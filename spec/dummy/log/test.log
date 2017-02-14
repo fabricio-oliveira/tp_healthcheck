@@ -1070,3 +1070,470 @@ Processing by Healthcheck::CheckController#show as HTML
   Parameters: {"cmd"=>"database"}
 Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
   [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:09:04 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:09:04 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:09:04 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:09:04 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:09:25 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:09:25 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:09:25 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 404 Not Found in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:09:25 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:09:41 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:09:41 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:09:41 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:09:41 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:11:12 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:11:12 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:11:12 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:11:12 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:11:36 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:11:36 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:11:36 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:11:36 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:12:07 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:12:07 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:12:07 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:12:07 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:12:59 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:12:59 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:12:59 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:12:59 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:13:18 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:13:18 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:13:18 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:13:18 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:13:59 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:13:59 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:13:59 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:13:59 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:14:12 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:14:12 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:14:12 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:14:12 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:20:58 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:20:58 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:20:58 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:20:58 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:21:14 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:21:14 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:21:14 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 404 Not Found in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:21:14 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:21:41 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:21:41 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:21:41 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:21:41 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:21:45 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:21:56 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:22:06 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:22:38 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:23:23 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:23:31 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:23:42 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:23:53 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:24:01 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:24:53 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:24:59 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:26:08 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:26:16 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:26:16 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:26:16 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:26:16 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:26:37 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:26:37 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:26:37 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:26:37 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:27:02 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/ping" for 127.0.0.1 at 2017-02-14 16:27:02 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"ping"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/database" for 127.0.0.1 at 2017-02-14 16:27:02 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"database"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/healthchecks/fake" for 127.0.0.1 at 2017-02-14 16:27:02 -0200
+Processing by Healthcheck::CheckController#show as HTML
+  Parameters: {"cmd"=>"fake"}
+Completed 404 Not Found in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
