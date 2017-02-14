@@ -16,6 +16,6 @@ class Healthcheck::CheckController < ApplicationController
     unless database_on?
       return render json: { code: '01', msg: 'database error' }.json, status: :internal_server_error
     end
-    head :ok
+    render plain: 'OK', status: ok
   end
 end
