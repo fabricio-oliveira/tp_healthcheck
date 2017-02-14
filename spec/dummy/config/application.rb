@@ -7,6 +7,5 @@ Bundler.require(*Rails.groups)
 require 'healthcheck'
 
 module Dummy
-  class Application < Rails::Application
-  end
+  class Application < Rails::Application; end
 end

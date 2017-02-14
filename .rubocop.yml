@@ -1,9 +1,12 @@
 # This is the configuration used to check the rubocop source code.
 AllCops:
+  Exclude:
+    - 'spec/integration_test/app/controllers/healthcheck/check_controller_spec.rb'
+    - 'spec/dummy/config/application.rb'
   TargetRubyVersion: 2.3
 
 Metrics/LineLength:
-  Max: 100
+  Max: 120
 
 Style/Encoding:
   Enabled: true
