@@ -2,10 +2,10 @@
 require 'rails_helper'
 
 RSpec.describe Healthcheck::CheckController, type: :request do
-  describe 'GET /healthcheck/check' do
+  describe 'GET /healthchecks/ping' do
     context 'When get healthcheck' do
       before do
-        get healthcheck_check_path, nil, nil
+        get '/healthchecks/ping', nil, nil
       end
 
       it 'Does return status_code: 200' do
@@ -20,7 +20,7 @@ RSpec.describe Healthcheck::CheckController, type: :request do
     describe 'GET /healthcheck/database' do
       context 'When database is up' do
         before do
-          get healthcheck_database_path, nil, nil
+          get '/healthchecks/database', nil, nil
         end
 
         it 'Does return status_code: 200' do
