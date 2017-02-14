@@ -1,7 +1,7 @@
 # This is the configuration used to check the rubocop source code.
 AllCops:
   Exclude:
-    - 'spec/integration_test/app/controllers/healthcheck/check_controller_spec.rb'
+    - 'spec/integration_test/app/controllers/tp_healthcheck/check_controller_spec.rb'
     - 'spec/dummy/config/application.rb'
   TargetRubyVersion: 2.3
 

@@ -2,16 +2,16 @@
 $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 
 # Maintain your gem's version:
-require 'healthcheck/version'
+require 'tp_healthcheck/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = 'healthcheck'
-  s.version     = Healthcheck::VERSION
+  s.name        = 'tp_healthcheck'
+  s.version     = TPHealthcheck::VERSION
   s.authors     = ['Fabricio Oliveira']
   s.email       = ['fabricio.oliveira@m4u.com.br']
   s.summary       = 'gem thas implement healthcheck'
-  s.homepage      = 'https://github.com/fabricio-oliveira/heath'
+  s.homepage      = 'https://github.com/fabricio-oliveira/tp_heathcheck'
   s.license       = 'MIT'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
@@ -21,10 +21,10 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'bundler', '~> 1.10'
   s.add_development_dependency 'rake', '~> 10.0'
-  s.add_development_dependency 'rspec'
-  s.add_development_dependency 'rspec-rails'
-  s.add_development_dependency 'simplecov'
-  s.add_development_dependency 'simplecov-rcov'
-  s.add_development_dependency 'rubocop'
-  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'rspec', '~> 3.0'
+  s.add_development_dependency 'rspec-rails', '~> 3.0'
+  s.add_development_dependency 'simplecov', '~> 0.13.0'
+  s.add_development_dependency 'simplecov-rcov', '~> 0.2.3'
+  s.add_development_dependency 'rubocop', '~> 0.47.1'
+  s.add_development_dependency 'sqlite3', '~>1.0'
 end

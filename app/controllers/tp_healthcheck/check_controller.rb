@@ -1,6 +1,6 @@
 # frozen_string_literal: true
-class Healthcheck::CheckController < ApplicationController
-  include Healthcheck::DataBaseHelper
+class TPHealthcheck::CheckController < ApplicationController
+  include TPHealthcheck::DataBaseHelper
 
   def show
     unless self.class.private_method_defined?(params[:cmd].to_sym)

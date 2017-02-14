@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 require 'rails_helper'
 
-RSpec.describe Healthcheck::CheckController, type: :request do
+RSpec.describe TPHealthcheck::CheckController, type: :request do
   describe 'GET /healthchecks/ping' do
     context 'When get healthcheck' do
       before do
