@@ -13,7 +13,7 @@ class TPHealthcheck::CheckController < ApplicationController
   private
 
   def ping
-    render plain: Rails.application.class.parent, status: :ok
+    render plain: Rails.application.class.parent.to_s, status: :ok
   end
 
   def database
