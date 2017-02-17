@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-class TPHealthcheck::CheckController < ActionController::API
+class TPHealthcheck::CheckController < ActionController::Base
   include TPHealthcheck::DataBaseHelper
   rescue_from StandardError, with: :handle_exception
 

@@ -14,8 +14,7 @@ Gem::Specification.new do |s|
   s.homepage      = 'https://github.com/fabricio-oliveira/tp_heathcheck'
   s.license       = 'MIT'
 
-  s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
-  s.test_files = Dir['spec/**/*']
+  s.files = Dir['{app,config,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
   s.required_ruby_version = '>= 2.1'
 
   s.add_dependency 'rails', '>=3'
