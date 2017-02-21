@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.1'
 
   s.add_dependency 'rails', '>=3'
+  s.add_dependency 'httparty', '>=0.13.4'
   s.add_development_dependency 'bundler', '~> 1.10'
   s.add_development_dependency 'rake', '~> 10.0'
   s.add_development_dependency 'rspec', '~> 3.0'
@@ -25,5 +26,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'simplecov', '~> 0.13.0'
   s.add_development_dependency 'simplecov-rcov', '~> 0.2.3'
   s.add_development_dependency 'rubocop', '~> 0.47.1'
+  s.add_development_dependency 'webmock', '~> 2.0.3'
   s.add_development_dependency 'sqlite3', '~>1.0'
 end

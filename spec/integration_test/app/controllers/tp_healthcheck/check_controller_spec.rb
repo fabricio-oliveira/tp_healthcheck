@@ -30,6 +30,32 @@ RSpec.describe TPHealthcheck::CheckController, type: :request do
     end
   end
 
+  describe 'GET /healthchecks/service' do
+    context 'When do not have microservice (or are not configurated file)' do
+      before do
+        allow(File).to receive(:exist?) { false }
+        get '/healthchecks/service', nil, nil
+      end
+
+      it 'Does return status_code: 204' do
+        expect(response).to have_http_status(:no_content)
+      end
+    end
+
+    context 'When have microservice configurate' do
+      before do
+        webmock.stub_request(:get, /api.github.com/)
+          .with(headers: { 'Accept' => '*/*', 'User-Agent' => 'Ruby' })
+          .to_return(status: 200, body: 'stubbed response', headers: {})
+        get '/healthchecks/service', nil, nil
+      end
+
+      it 'Does return status_code: 200' do
+        expect(response).to have_http_status(:ok)
+      end
+    end
+  end
+
   describe 'GET /healthchecks/fake' do
     context 'When get inexistent url' do
       before do

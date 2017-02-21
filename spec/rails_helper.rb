@@ -1,14 +1,16 @@
 # frozen_string_literal: true
-# Configure Rails Environment
 ENV['RAILS_ENV'] = 'test'
 
 require File.expand_path('../../spec/dummy/config/environment.rb', __FILE__)
 ActiveRecord::Migrator.migrations_paths = [File.expand_path('../../test/dummy/db/migrate', __FILE__)]
-# require 'rails/test_help'
+require 'simplecov'
+require 'simplecov-rcov'
 require 'rspec/rails'
 
-# Filter out Minitest backtrace while allowing backtrace from other libraries
-# to be shown.
+if ENV['GENERATE_REPORTS'] == 'true'
+  SimpleCov.formatters = SimpleCov::Formatter::RcovFormatter
+  SimpleCov.start 'rails'
+end
 
 # Load support files
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
